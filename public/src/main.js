@@ -48,11 +48,6 @@ function save2send(e) {
       city: city,
       state: state,
       zip: zip,
-      // Alto: alto,
-      // Ancho: ancho,
-      // Rojo:r,
-      // Verde:g,
-      // Azul:b
     });
     uploadFile();
     //Reset form
@@ -62,10 +57,6 @@ function save2send(e) {
     location.href="../Admin.html"
   } else {
     alert("Sus datos estan mal digilenciados");
-    // document.getElementById("ColorR").focus();
-    // document.getElementById("ColorR").value="";
-    // document.getElementById("ColorG").value="";
-    // document.getElementById("ColorB").value=""  ;
   }
 }
 
